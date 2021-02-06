@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/drinkfragmentlayout">
+
+    <TextView
+        android:id="@+id/waterReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Water Reminder"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waterGoal"
+        android:text="Enter your Goal"
+        android:textSize="30dp"
+        android:layout_below="@+id/waterReminder"
+        android:layout_marginTop="45dp"
+        />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:id="@+id/InputWaterGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_below="@+id/waterGoal"
+        android:hint="In litres"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waterIntake"
+        android:text="Enter your Water Intake"
+        android:textSize="30dp"
+        android:layout_below="@+id/waterGoal"
+        android:layout_marginTop="105dp"
+        />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:id="@+id/InputWaterIntake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_below="@+id/waterIntake"
+        android:hint="In ml"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/setWaterReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:layout_below="@id/InputWaterIntake"
+        android:layout_marginTop="220dp"
+        android:layout_centerInParent="true"
+
+        />
+
+</RelativeLayout>

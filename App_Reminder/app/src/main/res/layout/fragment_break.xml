@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/breakReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Break Reminder"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startTime"
+        android:text="Start Time"
+        android:textSize="30dp"
+        android:layout_below="@+id/breakReminder"
+        android:layout_marginTop="45dp"
+        />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:id="@+id/InputStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_below="@+id/startTime"
+        android:hint="10:20"
+        />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endTime"
+        android:text="End Time"
+        android:textSize="30dp"
+        android:layout_below="@+id/startTime"
+        android:layout_marginTop="95dp"
+        />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:id="@+id/InputEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/endTime"
+        android:hint="15:00"/>
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BreakInput"
+        android:text="Set Break Interval Time"
+        android:textSize="30dp"
+        android:layout_below="@+id/endTime"
+        android:layout_marginTop="105dp"
+        />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:id="@+id/InputBreakInterval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/BreakInput"
+        android:hint="Enter Time in Minutes"/>
+
+    <Button
+        android:id="@+id/setTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Timer"
+        android:layout_below="@id/InputEndTime"
+        android:layout_marginTop="220dp"
+        android:layout_centerInParent="true"
+
+        />
+
+</RelativeLayout>

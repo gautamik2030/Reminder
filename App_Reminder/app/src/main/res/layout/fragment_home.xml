@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/waterIntakeHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Intake"
+        android:textSize="40sp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="216dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-180dp" />
+
+    <TextView
+        android:id="@+id/litres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Litres to go"
+        android:textSize="30sp"
+        android:layout_below="@id/progressBar"
+        android:layout_marginTop="-50dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="-30dp"
+        />
+
+    <TextView
+        android:id="@+id/litresintake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="-50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-70dp"
+        android:text="2"
+        />
+
+    <TextView
+        android:id="@+id/breakIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break In "
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:text="20:02"
+        />
+
+
+</FrameLayout>
