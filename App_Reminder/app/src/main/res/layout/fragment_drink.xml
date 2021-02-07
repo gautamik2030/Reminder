@@ -52,7 +52,7 @@
         android:ems="10"
         android:inputType="time"
         android:layout_below="@+id/waterIntake"
-        android:hint="In ml"
+        android:hint="In litres"
         android:layout_marginTop="15dp"
         />
 
@@ -60,7 +60,7 @@
         android:id="@+id/setWaterReminder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Set Reminder"
+        android:text="Set"
         android:layout_below="@id/InputWaterIntake"
         android:layout_marginTop="220dp"
         android:layout_centerInParent="true"
